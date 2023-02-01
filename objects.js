@@ -51,43 +51,65 @@
 
 // Pet activity change colour///*******************************************************************/
 
-const pet = {
-    petName: "Snowy",
-    typeOfPet: "West Highland Terrier",
-    age: 17,
-    colour: "White",
-    good: true,
-    eatingDrinking: true,
-    petFeatures: ["small", "lazy", "happy"]
+// const pet = {
+//     petName: "Snowy",
+//     typeOfPet: "West Highland Terrier",
+//     age: 17,
+//     colour: "White",
+//     good: true,
+//     eatingDrinking: true,
+//     petFeatures: ["small", "lazy", "happy"],
+//     petEatingDrinking() { 
+//         if (this.good == true && this.eatingDrinking == true) {
+//             return (`Good ${pet.petName} gets their food and drink.`)
+//         }
+//         else if (this.good == false && this.eatingDrinking == true) {
+//             return (`No that's a bad ${pet.petName}.`)
+//         }
+//         else {
+//             return (`Who's a good ${pet.petName}?`)
+//         }
+//     }
+    
+// }
+// console.log(`${pet.petName} is a ${pet.colour} ${pet.typeOfPet} and he is a ${pet.age} year(s) old.`)
+
+// // change colour of pet ***********************************************************//////
+// pet.colour = "Black"
+// // console.log(pet)
+
+// console.log(`Oh no ${pet.petName} is actually a ${pet.colour} ${pet.typeOfPet} and he is ${pet.age} year(s) old.`)
+
+// // Pet activity add petFeatures that describe your pet**************************************///
+// console.log(`He is ${pet.petFeatures}`)
+
+// // Pet activity add methods eating and drinking******************************************************///
+
+// console.log(pet.petEatingDrinking())
+
+
+///////::::::::::::::::::: Coffee Shop Activity 5 ::::::::::::::::::::::::::::::::::::/
+
+const coffeeShop = {
+    branch: "Central",
+    drinks: ["Coffee", "Tea", "Soft drink",],
+    food:  ["Sandwich", "Cake", "Cookie",],
+    prices: [5.00, 4.50, 4.00, 3.50, 3.00, 2.50,],
+    drinkOrdered: true,
+    foodOrdered: true,
+    order() {
+        if (this.drinkOrdered == true && this.foodOrdered == true){
+            return (`You've ordered ${coffeeShop.drinks[0]} at £${coffeeShop.prices[0].toFixed(2)} and ${coffeeShop.food[1]} at £${coffeeShop.prices[2].toFixed(2)}. Your total comes to £${(coffeeShop.prices[0] + coffeeShop.prices[2]).toFixed(2)}. Thank you.`)
+        }
+        else if (this.drinkOrdered == true && this.foodOrdered == false){
+            return (`You've ordered a ${coffeeShop.drinks[2]} at £${coffeeShop.prices[4].toFixed(2)}, would you like to order some food?`)
+        }
+        else if (this.drinkOrdered == false && this.foodOrdered == true){
+            return(`You've ordered ${coffeeShop.food[2]} at £${coffeeShop.prices[5].toFixed(2)}. Would you like to order a drink?`)
+        }
+        else(this.drinkOrdered == false && this.foodOrdered == false);{
+            return (`Welcome to ${coffeeShop.branch} Coffee Shop. What would you like to order?`)
+        }
+    }
 }
-console.log(`${pet.petName} is a ${pet.colour} ${pet.typeOfPet} and he is a ${pet.age} year(s) old.`)
-
-colour = "Black"
-console.log(`Oh no ${pet.petName} is actually a ${colour} ${pet.typeOfPet} and he is ${pet.age} year(s) old.`)
-
-// Pet activity add petFeatures that describe your pet**************************************///
-console.log(`He is ${pet.petFeatures}`)
-
-// Pet activity add methods eating and drinking******************************************************///
-
-eatingDrinking() {
-    if (this.good == true && this.eatingDrinking == true) {
-        return "Good boys gets his food and drink."
-    }
-    else if (this.good == false && this.eatingDrinking == true) {
-        return "No that's a bad boy."
-    }
-    else {
-        return "Who's a good boy?"
-    }
-}
-console.log(pet.eatingDrinking())
-
-
-// echo "# js-Challenges" >> README.md
-// git init
-// git add README.md
-// git commit -m "first commit"
-// git branch -M main
-// git remote add origin https://github.com/Saxo83/js-Challenges.git
-// git push -u origin main
+console.log(coffeeShop.order())

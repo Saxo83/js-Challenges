@@ -1,15 +1,15 @@
 //example 1
-// let hunger = "no"
+let hunger = "hungry"
 
-// if (hunger == "hungry") {
-//     console.log("Yes please, I'm starving!")
-// }
-// else if (hunger == "full") {
-//     console.log("No thanks, I'm stuffed!")
-// }
-// else{
-//     console.log("Oh go on then, why not!")
-// }
+if (hunger == "hungry") {
+    console.log("Yes please, I'm starving!")
+}
+else if (hunger == "full") {
+    console.log("No thanks, I'm stuffed!")
+}
+else{
+    console.log("Oh go on then, why not!")
+}
 
 //********************** Music Activity *********************//// 
 // let music = "trance"
@@ -214,9 +214,9 @@
 
 //***********************Activity 7 ****************************/
 
-let placeOfWork = "Work"
-let townOgHome = "Home"
-let time =  7
+// let placeOfWork = "Work"
+// let townOgHome = "Home"
+// let time =  7
 
 // if (time < 8) {
 //     console.log("I'm at home.")
@@ -240,7 +240,7 @@ let time =  7
 
 //****************************** ACtivity 9 **************************/
 
-// example from Alisha
+// *****************example from Alisha ************/////////////////////
 // let word = "this string compares if the last letter is the same as the first";
 // let start = word.charAt(0);
 // let end = word.charAt(word.length-1);

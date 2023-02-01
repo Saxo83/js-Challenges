@@ -96,10 +96,10 @@
 /****************** Activity 4 *************************/
 
 
-for (let n = 0; n < 6; n++) {
+// for (let n = 0; n < 6; n++) {
     
-    console.log(Math.floor(Math.random()*100))
-        }
+//     console.log(Math.floor(Math.random()*100))
+//         }
 
 
 
@@ -113,14 +113,45 @@ for (let n = 0; n < 6; n++) {
 //     "Shawshank Redemption",
 //     "T2"
 // ]
+// console.log(favFilms)
+
 // for (let i = 0; i < favFilms.length; i++) {
 //     console.log(favFilms[i])
-
 // }
+
+// if (favFilms[2] == "Ghostbusters"){
+//         console.log("Yay! It's Ghostbusters!")
+//     }
+// else {
+//         console.log("Boo! We want Ghostbusters!")
+//     }
+
 
 
 
 /****************** Activity 6 *************************/
+let numDiv7 = []
+for (let n = 0; n < 6; n++)
+{    
+    x = Math.floor(Math.random()*30)
+    {
+    if (x % 7 == 0)
+        {
+        (numDiv7.push(x))
+        }
+    }
+}
+console.log(`The numbers between 0 and 30 that are divisible by 7; ${numDiv7}`)
+
+
+// let evenNumbers = []
+// for (let n = 0; n < 20; n++) {
+//     if (n % 2 == 0) {
+//         (evenNumbers.push(n))
+//     }
+// }
+// console.log(`The even numbers between 0 and 20 are; ${evenNumbers}`)
+
 
 
 
