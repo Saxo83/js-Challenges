@@ -102,10 +102,6 @@
 //         }
 
 
-
-
-
-
 /****************** Activity 5 *************************/
 // let favFilms = [
 //     "Home Alone",
@@ -133,22 +129,22 @@
     // Generate a random number between 1 and 30 six times. For each
     // random number generated, check if this number is divisible by 7 or
     // not. Log out a message to the console if it is divisible by 7 or not.
-let numDiv7 = []
-for (let n = 0; n < 6; n++)
-{    
-    x = Math.floor(Math.random()*30)
-    {
-    if (x % 7 == 0)
-        {
-        (numDiv7.push(x))
-        console.log(`${x} is divisible by 7.`)
-        }
-    else {
-        console.log(`${x} is not divisible by 7.`)
-    } 
-    }
-}
-console.log(`The numbers between 0 and 30 that are divisible by 7; ${numDiv7}`)
+// let numDiv7 = []
+// for (let n = 0; n < 6; n++)
+// {    
+//     x = Math.floor(Math.random()*30)
+//     {
+//     if (x % 7 == 0)
+//         {
+//         (numDiv7.push(x))
+//         console.log(`${x} is divisible by 7.`)
+//         }
+//     else {
+//         console.log(`${x} is not divisible by 7.`)
+//     } 
+//     }
+// }
+// console.log(`The numbers between 0 and 30 that are divisible by 7 are; ${numDiv7}`)
 
 
 // let evenNumbers = []
@@ -160,10 +156,27 @@ console.log(`The numbers between 0 and 30 that are divisible by 7; ${numDiv7}`)
 // console.log(`The even numbers between 0 and 20 are; ${evenNumbers}`)
 
 
-
-
-
 /****************** Activity 7 *************************/
+let sameFollowers = []
+let bobsFollowers = [
+    "Josephine",
+    "Kate",
+    "Laura",
+    "Michael"
+]
+let hannahsFollowers = [
+    "Kate",
+    "Lee",
+    "Michael",
+    "Nancy"
+]
+for (let b = 0; b < bobsFollowers.length; b++){
+    for (let h = 0; h < hannahsFollowers.length; h++){
+        if (bobsFollowers[b] === hannahsFollowers[h]){
+        console.log(sameFollowers = bobsFollowers)
+        }
+    }
+};
 
 /////// Cristina's Code *************////////////////////
 // let equalFollowers = [];

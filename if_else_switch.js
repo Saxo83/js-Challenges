@@ -1,15 +1,15 @@
 //example 1
-let hunger = "hungry"
+// let hunger = "hungry"
 
-if (hunger == "hungry") {
-    console.log("Yes please, I'm starving!")
-}
-else if (hunger == "full") {
-    console.log("No thanks, I'm stuffed!")
-}
-else{
-    console.log("Oh go on then, why not!")
-}
+// if (hunger == "hungry") {
+//     console.log("Yes please, I'm starving!")
+// }
+// else if (hunger == "full") {
+//     console.log("No thanks, I'm stuffed!")
+// }
+// else{
+//     console.log("Oh go on then, why not!")
+// }
 
 //********************** Music Activity *********************//// 
 // let music = "trance"
@@ -260,7 +260,8 @@ else{
 
 //****************************** ACtivity 10 **************************/
 
-// example from Alisha
+
+///////////*********** example from Alisha ***********////////////////
 // num = "1983";
 
 // console.log(`${num} backwards is ${num.charAt(3)}${num.charAt(2)}${num.charAt(1)}${num.charAt(0)}`)
