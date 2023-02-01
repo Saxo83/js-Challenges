@@ -130,6 +130,9 @@
 
 
 /****************** Activity 6 *************************/
+    // Generate a random number between 1 and 30 six times. For each
+    // random number generated, check if this number is divisible by 7 or
+    // not. Log out a message to the console if it is divisible by 7 or not.
 let numDiv7 = []
 for (let n = 0; n < 6; n++)
 {    
@@ -138,7 +141,11 @@ for (let n = 0; n < 6; n++)
     if (x % 7 == 0)
         {
         (numDiv7.push(x))
+        console.log(`${x} is divisible by 7.`)
         }
+    else {
+        console.log(`${x} is not divisible by 7.`)
+    } 
     }
 }
 console.log(`The numbers between 0 and 30 that are divisible by 7; ${numDiv7}`)
