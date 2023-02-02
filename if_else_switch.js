@@ -236,9 +236,23 @@
 
 // let letters = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi"
 
-// console.log (letters.lastIndexOf())
+// console.log (letters.lastIndexOf("a"))
+// console.log (letters.lastIndexOf("e"))
+// console.log (letters.lastIndexOf("i"))
+// console.log (letters.lastIndexOf("o"))
+// console.log (letters.lastIndexOf("u"))
 
 //****************************** ACtivity 9 **************************/
+
+// let word = "does this string have the same letter at the beginning and the end?"
+// let firstLetter = word.charAt(0);
+// let lastLetter = word.charAt(word.length-1);
+// if (firstLetter == lastLetter){
+//     console.log(`They have the same letter.`)
+// }
+// else {
+//         console.log(`They do not have the same letter.`)
+//     }
 
 // *****************example from Alisha ************/////////////////////
 // let word = "this string compares if the last letter is the same as the first";
@@ -259,6 +273,56 @@
 
 
 //****************************** ACtivity 10 **************************/
+
+// let num1 = [3]
+// let num2 = [7]
+
+// let sumNum = num1 + num2
+
+// if (sumNum % 2 == 0){
+//     console.log(`The sum of ${num1} and ${num2} is; ${sumNum}, which is even.`)
+// }
+// else {
+//     x = num1 * num2
+//     console.log(`When ${num1} and ${num2} multiplied is; ${x}, which is odd.`)
+// }
+
+// //////////////////****************************** Activity 11 *************//////////////////
+// let num = "20202"
+
+// if (num.charAt(0) == num.charAt(3) && num.charAt(1) == num.charAt(2)){
+//     console.log(`${num} is a palindrome.`)
+// }
+// else {
+//     console.log(`${num} is not a palindrome.`)
+// }
+
+let num = 20202
+console.log(`Numbers entered: ${num}`)
+
+// string = num.toString()
+// console.log(`Numbers as a string: ${string}.`)
+
+// split = string.split("")
+// console.log(`Numbers as a string split: ${split}.`)
+
+// reverseNum = split.reverse()
+// console.log(`Numbers reversed: ${reverseNum}.`)
+
+// join = reverseNum.join("")
+// console.log(`Reversed numbers joined:${join}.`)
+
+together = num.toString().split("").reverse().join("")
+console.log(`Altogther: ${together}.`)
+
+if (together == num){
+    console.log(`${num} is a palindrome.`)
+}
+else{
+    console.log(`${num} is not a palindrome.`)
+}
+
+
 
 
 ///////////*********** example from Alisha ***********////////////////

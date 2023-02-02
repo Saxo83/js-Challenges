@@ -30,15 +30,15 @@
 // console.log(`The even numbers in reverse order between 0 and 20 are; ${evenNumbers}`)
 
 // ////************************** odd numbers between 0 and 30 ***************/
-// let oddNumbers = []
-// for (let n = 0; n < 30; n++) {
-//     if (n % 2 !== 0) {
-//         (oddNumbers.push(n))
-//     }
-// }
-// console.log(`The odd numbers between 0 and 20 are; ${oddNumbers}`)
-// oddNumbers.reverse()
-// console.log(`The odd numbers in reverse order between 0 and 30 are; ${oddNumbers}`)
+let oddNumbers = []
+for (let n = 0; n < 30; n++) {
+    if (n % 2 !== 0) {
+        (oddNumbers.push(n))
+    }
+}
+console.log(`The odd numbers between 0 and 20 are; ${oddNumbers}`)
+oddNumbers.reverse()
+console.log(`The odd numbers in reverse order between 0 and 30 are; ${oddNumbers}`)
 
 // let lives = 3
 // while (lives > 0) {
@@ -157,26 +157,28 @@
 
 
 /****************** Activity 7 *************************/
-let sameFollowers = []
-let bobsFollowers = [
-    "Josephine",
-    "Kate",
-    "Laura",
-    "Michael"
-]
-let hannahsFollowers = [
-    "Kate",
-    "Lee",
-    "Michael",
-    "Nancy"
-]
-for (let b = 0; b < bobsFollowers.length; b++){
-    for (let h = 0; h < hannahsFollowers.length; h++){
-        if (bobsFollowers[b] === hannahsFollowers[h]){
-        console.log(sameFollowers = bobsFollowers)
-        }
-    }
-};
+
+// let sameFollowers = []
+
+// let bobsFollowers = [
+//     "Josephine",
+//     "Kate",
+//     "Laura",
+//     "Michael"
+// ]
+// let hannahsFollowers = [
+//     "Kate",
+//     "Lee",
+//     "Michael",
+//     "Nancy"
+// ]
+// for (let b = 0; b < bobsFollowers.length; b++){
+//     for (let h = 0; h < hannahsFollowers.length; h++){
+//         if (bobsFollowers[b] === hannahsFollowers[h]){
+//         console.log(sameFollowers = hannahsFollowers)
+//         }
+//     }
+// }
 
 /////// Cristina's Code *************////////////////////
 // let equalFollowers = [];
