@@ -66,7 +66,7 @@
 // // let daysTo = today - birthday
 // // console.log(daysTo)
 
-// console.log(`Todays date: ${today} and my birthday: ${birthday}. There are 193`)
+// console.log(`Todays date: ${today} and my birthday: ${birthday}. There are 193 days until my birthday.`)
 
 // console.log(Date().toString())
 
@@ -74,7 +74,7 @@
 
 today=new Date();
 const birthday=new Date(today.getFullYear(), 7, 14);
-if (today.getMonth()==2 && today.getDate()>2) 
+if (today.getMonth()==7 && today.getDate()>14) 
 {
 birthday.setFullYear(birthday.getFullYear()+1); 
 }  
